@@ -5,8 +5,8 @@
 代码说明
 ====
 
-* SolutionName=FJPH.FileUploader
-* StartUpProject=FJPH.FileUploader
+* SolutionName=解决方案名称
+* StartUpProject=启动目录
 
 问题反馈
 ====
