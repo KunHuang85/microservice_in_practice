@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.0.0.19</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.19</AssemblyVersion>
+    <FileVersion>1.0.0.19</FileVersion>
+    <Description>凤金普惠微服务组件：包含 1.服务注册与发现  2.日志扩展  3.环境变量  4.定时任务 5.消息队列</Description>
+    <Copyright>Copyright © 2016 -2019 凤金普惠. All rights reserved.</Copyright>
+    <PackageTags>微服务, MicroService</PackageTags>
+    <RepositoryType>Nuget</RepositoryType>
+    <PackageReleaseNotes>2019年02月11日，代码优化，使用2.2 版本新增的的健康检查</PackageReleaseNotes>
+    <PackageIconUrl>http://access.sz-repos.fengjr.inc/share2/icon/64.png</PackageIconUrl>
+    <Authors>Kun.Huang@fengjr.com</Authors>
+    <Company>凤金普惠</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="0.7.2.6" />
+    <PackageReference Include="Hangfire" Version="1.6.22" />
+    <PackageReference Include="Hangfire.Core" Version="1.6.22" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>

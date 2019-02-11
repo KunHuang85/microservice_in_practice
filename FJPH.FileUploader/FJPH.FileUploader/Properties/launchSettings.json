@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:31351/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "FJPH.FileUploader": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "APP_BUILD_NO": "999",
+        "APP_BUILD_NAME": "sz-file-uploader-kun",
+        "APP_MICRO_SETVICE_REGISTRY_HOST": "http://10.50.7.200:8500",
+        "APP_MICRO_SETVICE_REGISTRY_DATACENTER": "fjph",
+        "ASPNETCORE_URLS": "http://*:5555",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5555/api/health"
+    }
+  }
+}

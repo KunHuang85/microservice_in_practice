@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/FJPH.FileUploader/.vs
+
+/FJPH.FileUploader/FJPH.FileUploader/bin
+/FJPH.FileUploader/FJPH.FileUploader/obj
+
+/FJPH.FileUploader/FJPH.MicroService/bin
+/FJPH.FileUploader/FJPH.MicroService/obj
